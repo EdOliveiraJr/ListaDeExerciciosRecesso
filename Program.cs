@@ -6,6 +6,7 @@
         {
             Question01.Show();
             Question02.Show();
+            Question03.Show();
         }
     }
 }
