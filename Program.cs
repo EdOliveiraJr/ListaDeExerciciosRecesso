@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Question01.Show();
-            Question02.Show();
-            Question03.Show();
+            //Question01.Show();
+            //Question02.Show();
+            //Question03.Show();
+            Question04.Show();
         }
     }
 }
