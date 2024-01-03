@@ -8,8 +8,6 @@ namespace ListaDeExerciciosRecesso
 {
     internal static class Question01
     {
-        private static float _value { get; set; }
-
         private static float ConvertToCelsius(float value)
         {
             return (float)((value-32)/1.8);
@@ -33,13 +31,13 @@ namespace ListaDeExerciciosRecesso
 
             var value = Convert.ToInt16(Console.ReadLine());
 
-            switch (operation) 
+            switch (operation)
             {
                 case 1:
-                    Console.WriteLine(ConvertToFahrenheit(value));
+                    Console.WriteLine($"O valor {value}°C equivale a {ConvertToFahrenheit(value)}°F\n");
                     break;
                 case 2:
-                    Console.WriteLine(ConvertToCelsius(value));
+                    Console.WriteLine($"O valor {value}°F equivale a {ConvertToCelsius(value)}°C\n");
                     break;
                 default:
                     Console.WriteLine("Operação Inválida");
