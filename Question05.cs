@@ -26,11 +26,11 @@ namespace ListaDeExerciciosRecesso
 
             if (EhPalindromo(palavra))
             {
-                Console.WriteLine($"{palavra} é um palíndromo.\n");
+                Console.WriteLine($"A palavra {palavra} é um palíndromo.\n");
             }
             else
             {
-                Console.WriteLine($"{palavra} não é um palíndromo.\n");
+                Console.WriteLine($"A palavra {palavra} não é um palíndromo.\n");
             }
         }
 
