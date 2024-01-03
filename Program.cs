@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Question01.Show();
+            Question02.Show();
         }
     }
 }
