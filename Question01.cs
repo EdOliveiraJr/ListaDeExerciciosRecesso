@@ -34,10 +34,10 @@ namespace ListaDeExerciciosRecesso
             switch (operation)
             {
                 case 1:
-                    Console.WriteLine($"O valor {value}°C equivale a {ConvertToFahrenheit(value)}°F\n");
+                    Console.WriteLine($"O valor {value}°C equivale a {ConvertToFahrenheit(value):F1}°F\n");
                     break;
                 case 2:
-                    Console.WriteLine($"O valor {value}°F equivale a {ConvertToCelsius(value)}°C\n");
+                    Console.WriteLine($"O valor {value}°F equivale a {ConvertToCelsius(value):F1}°C\n");
                     break;
                 default:
                     Console.WriteLine("Operação Inválida");
